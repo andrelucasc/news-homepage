@@ -1,60 +1,70 @@
-* {
+*{
     margin: 0;
-    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-
-.practice {
+#leftbar{
     border: 2px solid red;
-    background-color: #9b6e6e;
+    width: 7vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+}
+
+#rightbar{
+    border: 2px solid blue;
+    width: 7vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    margin-left: 93vw;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+.header{
+    border: 2px solid red;
+    background: #9b6e6e;
     width: 80vw;
     height: 20vh;
     margin-left: auto;
     margin-right: auto;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.content1 {
+.content{
     border: 2px solid green;
-    width: 10vw;
-    height: 14vh;
-    float: left;
-    margin-left: 15%;
+    width: 150px;
+    height: 100px;
+    background: blue;
     color: white;
+    padding: 10px;
+    margin: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
 }
 
-.content2 {
-    border: 2px solid green;
-    width: 10vw;
-    height: 14vh;
-    float: right;
-    margin-right: 15%;
-    color: white;
-}
-
-.content3 {
-    border: 2px solid yellow;
-    margin-top: 1rem;
-    background-color: #9b6e6e;
-    width: 35vw;
-    height: 40vh;
-    margin-left: 10vw;
-}
-
-.leftcontent {
-    border: 2px solid blue;
-    width: 7vw;
-    height: 100vh;
+.article{
+    border: 2px solid pink;
+    width: 1000px;
+    height: 300px;
+    display: flex;
     position: absolute;
-}
+    margin-left: auto;
+    margin-right: auto;
 
-.rightcontent {
-    border: 2px solid red;
-    width: 7vw;
-    height: 100vh;
-    position: absolute;
-    margin-left: 93%;
-}
-
-.articles {
-    justify-content: space-between;
 }
