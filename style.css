@@ -45,6 +45,7 @@
     display:inline-flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 }
 
 .content{
@@ -60,6 +61,7 @@
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
+    overflow-y: hidden;
 }
 
 #center-body{
@@ -78,6 +80,7 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 .img{
