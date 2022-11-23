@@ -54,12 +54,11 @@
     color: white;
     padding: 10px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin:auto;
     text-align: center;
     flex-wrap: wrap;
+    overflow-y: hidden;
+    font-size: 16px;
 }
 
 #center-body{
@@ -86,8 +85,9 @@
     display:flex;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 568px){
     .content{
         width: 20vw;
+        font-size: 12px
     }
 };
