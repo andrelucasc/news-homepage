@@ -28,7 +28,7 @@
 
 .center-header{
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0vh auto 4vh auto;
     padding: 0 2%;
     display: flex;
     max-height: 150px;
