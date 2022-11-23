@@ -48,18 +48,18 @@
 
 .content{
     border: 2px solid green;
-    width: 10vw;
+    width: 25vw;
     height: 15vh;
     background: blue;
     color: white;
     padding: 10px;
     display: flex;
-    margin: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #center-body{
@@ -85,3 +85,9 @@
     margin-right: auto;
     display:flex;
 }
+
+@media screen and (max-width: 768px){
+    .content{
+        width: 20vw;
+    }
+};
