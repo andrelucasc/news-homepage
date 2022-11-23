@@ -32,6 +32,7 @@
     padding: 0 2%;
     display: flex;
     max-height: 150px;
+    overflow-y: hidden;
 }
 
 .header{
@@ -44,7 +45,6 @@
     display:inline-flex;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
 }
 
 .content{
@@ -60,7 +60,6 @@
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
-    overflow-x: hidden;
 }
 
 #center-body{
@@ -69,6 +68,7 @@
     padding: 0 2%;
     display: flex;
     max-height: 500px;
+    overflow-y: hidden;
 }
 
 .article{
